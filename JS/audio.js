@@ -49,7 +49,7 @@ var musicId = 0;
 
 // 初始化音乐
 function initMusic() {
-    audio.src = `./mp3/music${musicId}.mp3`;
+    audio.src = `mp3/music${musicId}.mp3`;
     audio.load();
     recordImg.classList.remove('rotate-play');
     
@@ -153,7 +153,7 @@ playMode.addEventListener('click', function() {
     if (modeID > 3) {
         modeID = 1;
     }
-    playMode.style.backgroundImage = `url('./img/mode${modeID}.png')`;
+    playMode.style.backgroundImage = `url('img/mode${modeID}.png')`;
 });
 
 // 当音乐播放完
@@ -257,5 +257,6 @@ function createMusic() {
        });
     }
 }
+
 
 document.addEventListener('DOMContentLoaded', createMusic);
