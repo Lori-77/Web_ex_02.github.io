@@ -205,9 +205,9 @@ function updateVolume() {
 // 更新音量图标的函数
 function updateVolumnIcon() {
     if (audio.muted || audio.volume == 0) {
-        volume.style.backgroundImage = `url('img/静音.png')`;
+        volume.style.backgroundImage = `url('./img/静音.png')`;
     } else {
-        volume.style.backgroundImage = `url('img/音量.png')`;
+        volume.style.backgroundImage = `url('./img/音量.png')`;
     }
 }
 
@@ -257,5 +257,6 @@ function createMusic() {
        });
     }
 }
+
 
 document.addEventListener('DOMContentLoaded', createMusic);
