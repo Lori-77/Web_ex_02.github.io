@@ -152,12 +152,12 @@ body {
 }
 
 .icon-pause {
-    background-image: url('../img/暂停.png');
+    background-image: url('../img/pause.png');
     background-size: 100% 100%; 
 }
 
 .nextMusic {
-    background-image: url('../img/pause.png');
+    background-image: url('../img/next.png');
     background-size: 100% 100%;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 #list {
-    background-image: url('../img/列表.png');
+    background-image: url('../img/list.png');
     background-size: 100% 100%;
 }
 
@@ -280,5 +280,6 @@ body {
     }
 
 }
+
 
 
